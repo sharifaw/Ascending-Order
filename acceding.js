@@ -1,33 +1,33 @@
-let a = +(prompt("First Number")) || 0;
-let b = +(prompt("Second Number")) || 0;
-let c = +(prompt("Third Number")) || 0;
-if (a < c) {
-  if (a <= b && b<c) {
-      alert([a,b,c]);
+let num1 = +(prompt("First Number")) || 0;
+let num2 = +(prompt("Second Number")) || 0;
+let num3 = +(prompt("Third Number")) || 0;
+if (num1 < num3) {
+  if (num1 <= num2 && num2 <= num3) {
+      alert([num1,num2,num3]);
   } 
-  else if (b < a){
-      alert([b,a,c]);
+  else if (num2 < num3){
+      alert([num2,num1,num3]);
   }
   else{
-      alert([a,c,b]);
+      alert([num1,num3,num2]);
   }
 } 
-else if (b < a){
-    if (b <= c && c<a){
-        alert([b,c,a]);
+else if (num2 < num1){
+    if (num2 <= num3 && num3 < num1){
+        alert([num2,num3,num1]);
     }
-    else if (c<b){
-        alert([c,b,a]);
+    else if (num3 < num2){
+        alert([num3,num2,num1]);
     }
     
 }
-else if (c < b){
-    if(c <= a && a<b){
-        alert([c,a,b]);
+else if (num3 < num2){
+    if(num3 <= num1 && num1 < num2){
+        alert([num3,num1,num2]);
     }
     
     
 }
 else{
-    alert([a,b,c]);
+    alert([num1,num2,num3]);
 }

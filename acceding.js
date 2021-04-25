@@ -1,6 +1,6 @@
-let num1 = +(prompt("First Number")) || 0;
-let num2 = +(prompt("Second Number")) || 0;
-let num3 = +(prompt("Third Number")) || 0;
+const num1 = +(prompt("First Number")) || 0;
+const num2 = +(prompt("Second Number")) || 0;
+const num3 = +(prompt("Third Number")) || 0;
 if (num1 < num3) {
   if (num1 <= num2 && num2 <= num3) {
       alert([num1,num2,num3]);

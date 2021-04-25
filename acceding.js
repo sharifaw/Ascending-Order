@@ -1,17 +1,3 @@
-// let a = +(prompt("First Number")) || 0;
-// let b = +(prompt("Second Number")) || 0;
-// let c = +(prompt("Third Number")) || 0;
-
-// if (a<b || a ==c){
-//     if (a<c){
-//         console.log(a,c,b);
-        
-//     }
-//     else{
-//         console(a,b,c);
-//     }
-// }
-
 let a = +(prompt("First Number")) || 0;
 let b = +(prompt("Second Number")) || 0;
 let c = +(prompt("Third Number")) || 0;
